@@ -1,0 +1,24 @@
+{
+  "name": "liri-the-personal-assistant",
+  "version": "1.0.0",
+  "description": "Using node js and multiple api's 'Liri' is the best CLI assistant around!",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimTatarakis/Liri-the-personal-assistant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JimTatarakis/Liri-the-personal-assistant/issues"
+  },
+  "homepage": "https://github.com/JimTatarakis/Liri-the-personal-assistant#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.1.1"
+  }
+}
