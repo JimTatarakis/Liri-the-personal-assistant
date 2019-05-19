@@ -5,6 +5,7 @@ var moment = require('moment');
 var keys = require('./keys')
 var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
+var fs = require('fs');
 
 // moment test
 // logs today's date and time: test ok
